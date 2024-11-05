@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Poetry",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "env": {
+          "POETRY_VIRTUALENVS_IN_PROJECT": "true"
+        },
+        "python": "${workspaceFolder}/.venv/bin/python"
+      }
+    ]
+  }
